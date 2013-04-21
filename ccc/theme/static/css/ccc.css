@@ -1,0 +1,26 @@
+#byline
+{
+    float: right;
+    margin-top: 90px;
+}
+
+#nav
+{
+    background-color: black;
+}
+
+#sections-wrapper
+{
+    background-color: black;
+    color: white;
+}
+
+#footer-wrapper
+{
+    background-color: black;
+}
+
+#footer #c-doormat-sitemap dl
+{
+    color: #fff;
+}

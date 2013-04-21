@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Clean Clothes Campaign Theme"
+           interface="ccc.theme.browser.interfaces.IThemeSpecific" />
+</layers>

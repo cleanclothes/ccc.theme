@@ -1,0 +1,14 @@
+<configure
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="ccc.theme">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Clean Clothes Campaign Theme"
+      directory="profiles/default"
+      description='Extension profile for the "Clean Clothes Campaign" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
