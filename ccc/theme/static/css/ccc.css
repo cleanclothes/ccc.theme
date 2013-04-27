@@ -23,6 +23,7 @@
     color: white;
 }
 
+<<<<<<< Updated upstream
 #doormat-wrapper
 {
     background-color: black;
@@ -37,6 +38,8 @@
     background-color: transparent;
 }
 
+=======
+>>>>>>> Stashed changes
 body {font: 13px/18px Arial,Helvetica,sans-serif;}
 p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
 
@@ -108,3 +111,13 @@ h1.documentFirstHeading {
     width: 290px;
 }
 
+#footer-wrapper
+{
+    background-color: black;
+}
+
+#footer #c-doormat-sitemap dl
+{
+    color: #fff;
+    width: 16%;
+}
