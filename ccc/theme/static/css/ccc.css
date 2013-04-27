@@ -23,14 +23,18 @@
     color: white;
 }
 
-#footer-wrapper
+#doormat-wrapper
 {
     background-color: black;
 }
 
-#footer #c-doormat-sitemap dl
+#doormat #c-doormat-sitemap dl
 {
     color: #fff;
+    width: 16%;
+}
+#doormat.row {
+    background-color: transparent;
 }
 
 body {font: 13px/18px Arial,Helvetica,sans-serif;}

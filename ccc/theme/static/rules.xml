@@ -26,8 +26,8 @@
     <copy attributes="role" css:content="content" css:theme="contentspace" />
     <replace css:content="#portal-columns" css:theme="#content" />
 
-    <!--Footer-->
-    <replace css:theme="div#footer div" css:content="div#c-doormat-sitemap" />
+    <!--doormat-->
+    <replace css:theme="div#doormat div" css:content="div#c-doormat-sitemap" />
 
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />
@@ -39,7 +39,7 @@
 
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
-    <replace css:content-children="#portal-footer" css:theme="#footer-info" />
+    <replace css:content-children="#portal-footer" css:theme="#doormat-info" />
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />
 
     <!--Portlets-->
