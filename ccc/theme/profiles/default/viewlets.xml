@@ -3,7 +3,7 @@
  <order manager="plone.portalheader" skinname="*">
   <viewlet name="ccc.theme.searchbox"/>
  </order>
- <order manager="plone.belowcontentbody" skinname="*">
+ <order manager="plone.portalheader" skinname="*">
   <viewlet name="ccc.theme.documentactions"/>
  </order>
  <hidden manager="plone.portalheader" skinname="*">

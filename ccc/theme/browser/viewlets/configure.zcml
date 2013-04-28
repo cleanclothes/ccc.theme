@@ -7,7 +7,7 @@
 
     <browser:viewlet
         name="ccc.theme.documentactions"
-        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class=".content.DocumentActionsViewlet"
         permission="zope2.View"
         />
