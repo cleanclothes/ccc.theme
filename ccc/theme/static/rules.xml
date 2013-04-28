@@ -21,10 +21,12 @@
     <!--Portal Tabs-->
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
     
-    
     <!--Document Actions-->
     <before method="raw" css:theme="div#nav" css:content="div.documentActions" />
     <drop css:content=".documentActions" />
+
+    <!--Search Box-->
+    <before css:theme="div#nav" css:content="#portal-searchbox" />
 
     <!--Content-->
     <merge attributes="class" css:content="body" css:theme="body" />
@@ -43,8 +45,6 @@
 
     <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" />
 
-    <drop css:content=".searchSection" />
-    <replace css:content="#portal-searchbox" css:theme="#search" />
     <replace css:content-children="#portal-footer" css:theme="#doormat-info" />
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />
 
