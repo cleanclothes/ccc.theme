@@ -26,6 +26,24 @@
 body {font: 13px/18px Arial,Helvetica,sans-serif;}
 p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
 
+.documentActions
+{
+    float: right;
+    height: 46px
+}
+
+.documentActions ul li a
+{
+    height: 46px;
+}
+
+#document-action-twitter
+{
+    background: url("++theme++ccc.theme/icons/twitter.png") no-repeat scroll left top transparent;
+    padding-left: 20px;
+    height: 46px;
+}
+
 .portlet
 {
     border-bottom: 1px solid black;
