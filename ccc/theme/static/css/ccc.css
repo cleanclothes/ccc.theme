@@ -26,6 +26,36 @@
 body {font: 13px/18px Arial,Helvetica,sans-serif;}
 p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
 
+.portlet
+{
+    border-bottom: 1px solid black;
+}
+
+dl.portlet dt
+{
+    border-bottom: 1px solid black;
+    color: #FFFFFF;
+    background-color: #D40E16;
+}
+
+dl.portlet dt a,
+dl.portlet dt a:hover,
+dl.portlet dt a:link
+{
+    color: #FFFFFF;
+    background-color: #D40E16;
+}
+
+.portlet dd
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+dl.portlet dd.portletItem
+{
+}
+
 #content .documentDescription{
 	font: bold 14px Arial,Helvetica,sans-serif;
 	color: black;
