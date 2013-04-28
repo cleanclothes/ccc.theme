@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+    <include package="Products.CMFCore" file="permissions.zcml"/>
+
+    <browser:viewlet
+        name="ccc.theme.documentactions"
+        manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+        class=".content.DocumentActionsViewlet"
+        permission="zope2.View"
+        />
+
+</configure>
