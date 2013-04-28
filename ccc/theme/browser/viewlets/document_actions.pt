@@ -18,7 +18,7 @@
                                          target daction/link_target|nothing;
                                          title daction/description"
                          >
-                         <i tal:attributes="class python:'icon-' + normalizeString(daction['id']) + '-sign icon-3x icon-white'">
+                         <i tal:attributes="class python:'icon-' + normalizeString(daction['id']) + '-sign icon-2x icon-white'">
                          </i>
                       </a>
                   </li>

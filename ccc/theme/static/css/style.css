@@ -26,16 +26,13 @@ h2, h3, h4, h5, h6 {color: #636466;}
 #nav a:hover, #nav li.selected a {padding-top: 1em;background: #ff9900;}
 
 #portal-searchbox #searchGadget {
-border-width: 1px;
-border-style: solid;
-border-color: #597a97;
+border-width: 0px;
 }
 #portal-searchbox .searchButton {
-background:#636466;
+background:transparent;
 color: #ffffff;
-border-width: 1px;
-border-style: solid;
-border-color: #c8c8c9;
+border-width: 0px;
+margin-top: 0.1em;
 }
 #doormat {background-color: transparent; color: #fff;;}
 #doormat a:link {color:#fff;;}
@@ -66,11 +63,11 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #nav {padding: 1em 2em 1em 0;	font-size: 1.2em;}
 #nav ul {padding-top: 0;}
 #nav li {display: inline;}
-#nav a {	padding: 1.1em 2em 1em 2em; text-decoration: none;}
+#nav a {	padding: 1.1em 0.8em 1em 0.8em; text-decoration: none;}
 #searchbt, #nav #seletor {display:none;}
 
 /* Searchbox */
-#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:24%; font-size: 1em;}
+#portal-searchbox {float: right; margin: 3.5%  1% 0 0; font-size: 1em;}
 #portal-searchbox  form, #portal-searchbox  form .LSBox  {font-size: 100%;}
 #portal-searchbox #searchGadget {
 	padding: 1.2% 0  1.1% 0;
@@ -79,7 +76,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 	width: 72%;
 	font-size:1.1em;
 }
-#portal-searchbox .searchButton {font-size:0.8em; text-align:center;}
+#portal-searchbox .searchButton {text-align:center;}
 #LSResult {z-index:1; margin-top: 0.5%;}
 
 /*doormat*/

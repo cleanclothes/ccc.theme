@@ -20,7 +20,7 @@
                size="18"
                value=""
                title="Search Site"
-               placeholder="Search Site"
+               placeholder="Search"
                accesskey="4"
                i18n:attributes="title title_search_site;
                                 placeholder title_search_site"
@@ -28,10 +28,9 @@
                                id search_input_id"
                class="searchField" />
 
-        <input class="searchButton"
-               type="image"
-               value="Search"
-               tal:attributes="src string:${portal_url}/++theme++ccc.theme/images/search_icon.gif"
+        <input class="searchButton icon-search icon-2x"
+               type="submit"
+               value="&#xf002;"
                i18n:attributes="value label_search;" />
 
         <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>

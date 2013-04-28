@@ -29,7 +29,8 @@ p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
 .documentActions
 {
     float: right;
-    height: 46px
+    height: 46px;
+margin:0.5em 0 0 1.5em;
 }
 
 .documentActions ul li a
@@ -56,13 +57,12 @@ div#portal-searchbox {
 
 .LSBox {
     height: 46px;
-    width: 210px;
+    width: 150px;
 }
 
 div.LSBox input#searchGadget 
 {
-    background-image: url("++theme++ccc.theme/images/searchbox.gif");
-    background-repeat: no-repeat;
+     border-radius: 10px
 }
 
 .portlet
