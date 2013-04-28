@@ -1,10 +1,10 @@
 #payoff
 {
     float: right;
-    margin-top: 90px;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(0,0,0,0.1);
     font-size:20px;
+    position: absolute; right: 0; bottom: 10px;
 }
 
 #nav
