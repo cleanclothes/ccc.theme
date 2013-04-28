@@ -79,7 +79,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 	width: 72%;
 	font-size:1.1em;
 }
-#portal-searchbox .searchButton {font-size:0.8em; width: 27%; padding:1.899% 0  0.8% 0; text-align:center;}
+#portal-searchbox .searchButton {font-size:0.8em; text-align:center;}
 #LSResult {z-index:1; margin-top: 0.5%;}
 
 /*doormat*/

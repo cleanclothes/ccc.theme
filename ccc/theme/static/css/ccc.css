@@ -44,40 +44,25 @@ div.searchSection {
 }
 
 div#portal-searchbox {
-    margin-top: 14px;
-    #margin-top: 123px;
-    padding-right: 12px;
-    position: absolute;
-    right: 0;
+    clear: none;
+    margin: 0;
+}
+
+#portal-searchbox #searchGadget
+{
+    padding: 4px;
+    margin: 7px;
 }
 
 .LSBox {
-    background-image: url("++theme++ccc.theme/images/searchbox.gif");
-    background-repeat: no-repeat;
-    height: 28px;
-    position: relative;
+    height: 46px;
     width: 210px;
 }
 
-div.LSBox input#searchGadget {
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    color: #FFFFFF;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 1.2em;
-    height: 20px;
-    position: absolute;
-    top: 3px;
-    left: 15px;
-    width: 144px;
-    text-transform: lowercase;
-}
-
-div.LSBox input.keble-search {
-    border: medium none;
-    position: absolute;
-    right: 18px;
-    top: 7px;
+div.LSBox input#searchGadget 
+{
+    background-image: url("++theme++ccc.theme/images/searchbox.gif");
+    background-repeat: no-repeat;
 }
 
 .portlet
