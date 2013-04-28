@@ -209,6 +209,18 @@ dl.portlet dd.portletFooter a:link
     margin-bottom: 5px;
 }
 
+#fg-base-edit
+{
+    padding-right: 0.5em;
+}
+
+#fg-base-edit input[type=text]
+{
+    display: block;
+    max-width: 100%;
+    padding-rigth: 0.5 em;
+} 
+
 #doormat-wrapper
 {
     background-color: black;
