@@ -193,8 +193,14 @@ h1.documentFirstHeading {
 
 #c-doormat-sitemap dl
 {
-    color: #fff;
+    color: #FFFFFF;
     width: 16%;
     float: left;
     min-width: 200px;
+}
+
+#c-doormat-sitemap dl dd
+{
+    color: #FFFFFF;
+    text-align: left;
 }
