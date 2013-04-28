@@ -7,6 +7,10 @@
     position: absolute; right: 0; bottom: 10px;
 }
 
+@media all and (max-width: 940px) {
+    #payoff {position: relative;}
+}
+
 #nav
 {
     background-color: black;
