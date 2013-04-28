@@ -192,6 +192,12 @@ h1.documentFirstHeading {
     margin-bottom: 10px;
 }
 
+#content .tile img
+{
+    float: left;
+    margin-right: 10px;
+}
+
 #doormat-wrapper
 {
     background-color: black;
