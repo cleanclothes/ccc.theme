@@ -55,7 +55,7 @@ div.searchSection {
 
 div#portal-searchbox {
     clear: none;
-    margin: 0;
+    margin: 0 20px 0 0;
 }
 
 #portal-searchbox #searchGadget
