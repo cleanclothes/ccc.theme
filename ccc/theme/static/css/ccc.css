@@ -1,10 +1,14 @@
 #payoff
 {
     float: right;
-    margin-top: 90px;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(0,0,0,0.1);
     font-size:20px;
+    position: absolute; right: 0; bottom: 10px;
+}
+
+@media all and (max-width: 940px) {
+    #payoff {position: relative;}
 }
 
 #nav
@@ -33,9 +37,14 @@ p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
 margin:0.5em 0 0 1.5em;
 }
 
-.documentActions ul li a
+.documentActions ul
 {
     height: 46px;
+}
+
+.documentActions ul li i
+{
+    margin-top: 3px;
 }
 
 .icon-white {color: white;}
