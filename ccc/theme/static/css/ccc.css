@@ -56,6 +56,20 @@ dl.portlet dd.portletItem
 {
 }
 
+dl.portlet dd.portletFooter
+{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+dl.portlet dd.portletFooter a,
+dl.portlet dd.portletFooter a:hover,
+dl.portlet dd.portletFooter a:link
+{
+    border-bottom: none;
+    color: #FFFFFF;
+}
+
 #content .documentDescription{
 	font: bold 14px Arial,Helvetica,sans-serif;
 	color: black;
