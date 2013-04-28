@@ -19,9 +19,11 @@
 
     <!--Portal Tabs-->
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
-
+    
+    
     <!--Document Actions-->
-    <before css:theme="div#nav" css:content="div.documentActions" />
+    <before method="raw" css:theme="div#nav" css:content="div.documentActions" />
+    <drop css:content=".documentActions" />
 
     <!--Content-->
     <merge attributes="class" css:content="body" css:theme="body" />
