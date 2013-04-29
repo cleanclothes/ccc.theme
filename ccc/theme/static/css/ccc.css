@@ -139,6 +139,22 @@ dl.portlet dd.portletFooter a:link
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
     color: #D40E16;}
+#content h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-family: "Archivo Black", Arial,Helvetica,sans-serif;
+    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    color: #D40E16;}
+#content h3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0;
+    font-family: "Archivo Black", Arial,Helvetica,sans-serif;
+    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    color: #D40E16;}
 #content h1 a:link, #content h1 a:visited {
 	font-weight: normal;
 	font-size: 22px;
