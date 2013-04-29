@@ -160,11 +160,12 @@ dl.portlet dd.portletFooter a:link
     border-radius:0;
     color: black;
     padding: 0.25em 0em;
+    border-bottom: 0.1em solid #D40E16;
 }
 #category a.link-category:hover {
     background: none;
     border-color:none;
-    color: White;
+    color: #666 !important;
 }
 #category .separator {
     display: none;
