@@ -1,9 +1,14 @@
+body
+{
+    line-height: 180%;
+}
+
 #payoff
 {
     float: right;
+    font-size: 200%;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(0,0,0,0.1);
-    font-size:20px;
     position: absolute; right: 0; bottom: 10px;
 }
 
@@ -13,9 +18,9 @@
 
 #nav
 {
+    font-size: 140%;
     background-color: black;
     font-weight: bold;
-    font-size: 14px;
 }
 
 #nav a:hover, #nav li.selected a {
@@ -29,11 +34,9 @@
     color: white;
 }
 
-body {font: 13px/18px Arial,Helvetica,sans-serif;}
-p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
-
 .documentActions
 {
+    font-size: 130%;
     float: right;
     height: 46px;
     margin:0.5em 0 0 1.5em;
@@ -55,7 +58,9 @@ div.searchSection {
     display: none;
 }
 
-div#portal-searchbox {
+div#portal-searchbox
+{
+    height: 46px;
     clear: none;
     margin: 0 20px 0 0;
 }
@@ -69,6 +74,7 @@ div#portal-searchbox {
 .LSBox {
     height: 46px;
     width: 150px;
+    font-size: 143%;
 }
 
 div.LSBox input#searchGadget 
@@ -137,53 +143,67 @@ dl.portlet li:last-child
     padding-bottom: 0.5em;
 }
 
-#content .documentDescription{
+#content .documentDescription
+{
 	font: bold 14px Arial,Helvetica,sans-serif;
 	color: black;
 	margin-bottom: 1em;
 }
-#content h1.documentFirstHeading {
+
+#content h1.documentFirstHeading
+{
+    font-size: 246.2%;
+    line-height: 94%;
 	font-weight: normal;
-	font-size: 32px;
-	line-height: 30px;
 	letter-spacing: 0;
 	font-family: "Archivo Black", Arial,Helvetica,sans-serif;
 	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
-	color: #D40E16;}
-#content h1 {
+	color: #D40E16;
+}
+
+#content h1
+{
+    font-size: 170%;
+    line-height: 91%;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 20px;
     letter-spacing: 0;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
-    color: #D40E16;}
-#content h2 {
+    color: #D40E16;
+}
+
+#content h2
+{
+    font-size: 124%;
+    line-height: 100%;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 16px;
     letter-spacing: 0;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
-    color: #D40E16;}
-#content h3 {
+    color: #D40E16;
+}
+
+#content h3
+{
+    font-size: 108%;
+    line-height: 93%;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 13px;
     letter-spacing: 0;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
-    color: #D40E16;}
-#content h1 a:link, #content h1 a:visited {
+    color: #D40E16;
+}
+
+#content h1 a:link, #content h1 a:visited
+{
 	font-weight: normal;
-	font-size: 22px;
-	line-height: 22px;
 	letter-spacing: 0;
 	font-family: "Archivo Black", Arial,Helvetica,sans-serif;
 	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
 	color: #D40E16;
 	border-bottom: none;
 }
+
 #category {
     color: #666666;
     font-size: 75%;
