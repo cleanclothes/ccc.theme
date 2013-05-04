@@ -102,6 +102,10 @@ dl.portlet dt a:link
     border-right: 1px solid black;
 }
 
+dl.portlet {
+    font-size: 90%;
+}
+
 dl.portlet dd.portletFooter
 {
     background-color: #000000;
