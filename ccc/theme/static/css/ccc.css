@@ -243,6 +243,11 @@ dl.portlet li:last-child
     padding-rigth: 0.5 em;
 } 
 
+#relatedItemBox dd a
+{
+    color: #000000 !important;
+}
+
 #doormat-wrapper
 {
     background-color: black;
