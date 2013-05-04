@@ -17,10 +17,12 @@
     font-weight: bold;
     font-size: 14px;
 }
+
 #nav a:hover, #nav li.selected a {
     background-color: transparent;
     color: #B3B3B3;
 }
+
 #sections-wrapper
 {
     background-color: black;
@@ -34,7 +36,7 @@ p, div {font: 13px/18px Arial,Helvetica,sans-serif;}
 {
     float: right;
     height: 46px;
-margin:0.5em 0 0 1.5em;
+    margin:0.5em 0 0 1.5em;
 }
 
 .documentActions ul
@@ -98,10 +100,6 @@ dl.portlet dt a:link
 {
     border-left: 1px solid black;
     border-right: 1px solid black;
-}
-
-dl.portlet dd.portletItem
-{
 }
 
 dl.portlet dd.portletFooter
@@ -242,6 +240,13 @@ dl.portlet li:last-child
     max-width: 100%;
     padding-rigth: 0.5 em;
 } 
+
+#relatedItemBox dt
+{
+    font-size: 150%;
+    color: #D40E16;
+    margin-bottom: 0.5em;
+}
 
 #relatedItemBox dd a
 {
