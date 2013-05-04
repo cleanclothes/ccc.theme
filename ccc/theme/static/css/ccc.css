@@ -125,6 +125,16 @@ dl.portlet li:last-child
     margin-bottom: 0;
 }
 
+.portletRelatedItems .relatedDiscription
+{
+    margin-top: 0.5em;
+}
+
+.portletRelatedItems img
+{
+    float: right;
+}
+
 #content .documentDescription{
 	font: bold 14px Arial,Helvetica,sans-serif;
 	color: black;
