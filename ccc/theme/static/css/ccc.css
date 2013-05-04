@@ -118,6 +118,11 @@ dl.portlet dd.portletFooter a:link
     color: #FFFFFF;
 }
 
+dl.portlet li:last-child
+{
+    margin-bottom: 0;
+}
+
 #content .documentDescription{
 	font: bold 14px Arial,Helvetica,sans-serif;
 	color: black;
