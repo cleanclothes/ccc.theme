@@ -133,6 +133,8 @@ dl.portlet li:last-child
 .portletRelatedItems img
 {
     float: right;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 #content .documentDescription{
