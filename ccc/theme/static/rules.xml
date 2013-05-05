@@ -20,7 +20,11 @@
 
     <!--Portal Tabs-->
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
-    
+
+    <!--Breadcrumbs-->
+    <replace method="raw" css:content="#portal-breadcrumbs" css:theme="#breadcrumbs" />
+    <drop css:content="#portal-breadcrumbs" />
+
     <!--Document Actions-->
     <before method="raw" css:theme="div#nav" css:content="div.documentActions" />
     <drop css:content=".documentActions" />
