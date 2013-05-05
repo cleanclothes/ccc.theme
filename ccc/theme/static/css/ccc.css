@@ -16,6 +16,12 @@ body
     #payoff {position: relative;}
 }
 
+#sections-wrapper
+{
+    background-color: black;
+    color: white;
+}
+
 #nav
 {
     font-size: 140%;
@@ -28,10 +34,15 @@ body
     color: #B3B3B3;
 }
 
-#sections-wrapper
+#breadcrumbs-wrapper
 {
-    background-color: black;
-    color: white;
+    background-color: #CCCCCC;
+}
+
+#portal-breadcrumbs
+{
+    font-size: 120%;
+    padding-left: 0.7em;
 }
 
 .documentActions
