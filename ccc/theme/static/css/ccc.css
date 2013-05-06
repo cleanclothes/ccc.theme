@@ -315,6 +315,7 @@ dl.portlet li:last-child
 #doormat-wrapper
 {
     background-color: black;
+    font-size: 130%;
 }
 
 #doormat #c-doormat-sitemap dl
