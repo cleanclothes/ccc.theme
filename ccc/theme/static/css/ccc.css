@@ -241,6 +241,8 @@ dl.portlet li:last-child
 #category .separator {
     display: none;
 }
+#content h2 > a:link {font-weight:normal;}
+#content h3 > a:link {font-weight:normal;}
 #content a:link, dl.portlet a:link {
 	border-bottom: 0.1em solid #D40E16;
 	font-weight: bold;
