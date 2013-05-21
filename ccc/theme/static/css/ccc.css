@@ -169,7 +169,7 @@ dl.portlet li:last-child
 #content h1.documentFirstHeading
 {
     font-size: 246.2%;
-    line-height: 94%;
+    line-height: 120%;
 	font-weight: normal;
 	letter-spacing: 0;
 	font-family: "Archivo Black", Arial,Helvetica,sans-serif;
@@ -180,7 +180,7 @@ dl.portlet li:last-child
 #content h1
 {
     font-size: 170%;
-    line-height: 91%;
+    line-height: 120%;
     font-weight: normal;
     letter-spacing: 0;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
@@ -191,7 +191,7 @@ dl.portlet li:last-child
 #content h2
 {
     font-size: 124%;
-    line-height: 100%;
+    line-height: 110%;
     font-weight: normal;
     letter-spacing: 0;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
@@ -202,7 +202,7 @@ dl.portlet li:last-child
 #content h3
 {
     font-size: 108%;
-    line-height: 93%;
+    line-height: 110%;
     font-weight: normal;
     letter-spacing: 0;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
@@ -268,12 +268,15 @@ dl.portlet li:last-child
     width: 290px;
 }
 
+#content div.row {
+    border-bottom: 5px solid #000;
+}
 #content .tile
 {
-    border: 1px solid black;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding-right: 5px;
     padding-left: 5px;
+    background-color: #fff;
 }
 
 #content .tile img
@@ -325,3 +328,7 @@ dl.portlet li:last-child
     min-width: 200px;
 }
 
+p {
+    line-height: 1.6em;
+    margin: 0 0 1em;
+}

@@ -34,7 +34,8 @@ color: #ffffff;
 border-width: 0px;
 margin-top: 0.1em;
 }
-#doormat {background-color: transparent; color: #fff;;}
+#doormat {background-color: transparent; color: #fff;
+	font-size: 130%;}
 #doormat a:link {color:#fff;;}
 #doormat a:hover {color:#fff; text-decoration: underline;}
 #doormat a:visited {color:#fff;;}
