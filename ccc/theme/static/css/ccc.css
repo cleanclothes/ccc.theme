@@ -334,3 +334,8 @@ p {
     line-height: 1.6em;
     margin: 0 0 1em;
 }
+
+.galleria-info-description {
+    font: italic 12px/1.4 arial,sans-serif;
+    margin: 0;
+}
