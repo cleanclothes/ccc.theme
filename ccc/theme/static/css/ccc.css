@@ -34,20 +34,22 @@ body
     color: #B3B3B3;
 }
 
-#breadcrumbs-wrapper
-{
-    background-color: #CCCCCC;
-}
-
 #portal-breadcrumbs
 {
     font-size: 120%;
     padding-left: 1.9em;
+    border-bottom: 5px solid black;
+    padding-top: 0.5em;
 }
 
 #portal-breadcrumbs a:hover
 {
     text-decoration: underline;
+}
+
+#breadcrumbs-current
+{
+    color: #D40E16;
 }
 
 .documentActions
