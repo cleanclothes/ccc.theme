@@ -61,10 +61,10 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #portal-personaltools {font-size: 1.1em;}
 
 /* navigation */
-#nav {padding: 1em 2em 1em 0;}
+#nav {padding: 1em 2em 1em 1em;}
 #nav ul {padding-top: 0;}
 #nav li {display: inline;}
-#nav a {	padding: 1.1em 0.8em 1em 0.8em; text-decoration: none;}
+#nav a {	padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
 #searchbt, #nav #seletor {display:none;}
 
 /* Searchbox */

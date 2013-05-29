@@ -9,7 +9,7 @@ body
     font-size: 200%;
     font-family: "Archivo Black", Arial,Helvetica,sans-serif;
     -webkit-text-stroke: 1px rgba(0,0,0,0.1);
-    position: absolute; right: 0; bottom: 10px;
+    position: absolute; right: 0; bottom: 25px;
 }
 
 @media all and (max-width: 940px) {
@@ -42,7 +42,7 @@ body
 #portal-breadcrumbs
 {
     font-size: 120%;
-    padding-left: 0.7em;
+    padding-left: 1.9em;
 }
 
 #portal-breadcrumbs a:hover
@@ -95,7 +95,7 @@ div#portal-searchbox
 
 div.LSBox input#searchGadget 
 {
-     border-radius: 10px
+     border-radius: 5px
 }
 
 .portlet
@@ -318,7 +318,8 @@ dl.portlet li:last-child
 #doormat-wrapper
 {
     background-color: black;
-    font-size: 130%;
+    font-size: 110%;
+    line-height: 2em;
 }
 
 #doormat #c-doormat-sitemap dl
