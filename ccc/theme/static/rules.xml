@@ -26,7 +26,7 @@
     <drop css:content="#portal-breadcrumbs" />
 
     <!--Document Actions-->
-    <before method="raw" css:theme="div#nav" css:content="div.documentActions" />
+    <before method="raw" css:theme="div#payoff" css:content="div.documentActions" />
     <drop css:content=".documentActions" />
 
     <!--Search Box-->
