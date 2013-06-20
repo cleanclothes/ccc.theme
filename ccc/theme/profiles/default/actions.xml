@@ -26,5 +26,17 @@
    </property>
    <property name="visible">True</property>
   </object>
+  <object name="rss" meta_type="CMF Action" i18n:domain="ccc.theme">
+   <property name="title" i18n:translate="">RSS</property>
+   <property name="description" i18n:translate="">RSS feed</property>
+   <property name="url_expr">string:http://www.cleanclothes.org/feed/atom.xml</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
  </object>
 </object>
