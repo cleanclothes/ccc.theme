@@ -21,9 +21,9 @@ h2, h3, h4, h5, h6 {color: #636466;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
 #main {background:#fff; font-size: 1.3em; padding: 1em 0;}
 
-#nav {background: #205C90;	text-align: left; color: #ffffff;}
+#nav {background: black;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}
-#nav a:hover, #nav li.selected a {padding-top: 1em;background: #ff9900;}
+#nav a:hover, #nav li.selected a {padding-top: 1em;background: transparent;}
 
 #portal-searchbox #searchGadget {
 border-width: 0px;
