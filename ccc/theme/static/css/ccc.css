@@ -7,8 +7,9 @@ body
 {
     float: right;
     font-size: 200%;
-    font-family: "Archivo Black", Arial,Helvetica,sans-serif;
-    -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
     position: absolute; right: 1em; bottom: 25px;
 }
 
@@ -198,10 +199,9 @@ dl.portlet li:last-child
 {
     font-size: 246.2%;
     line-height: 120%;
-	font-weight: normal;
-	letter-spacing: 0;
-	font-family: "Archivo Black", Arial,Helvetica,sans-serif;
-	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
 	color: #D40E16;
 }
 
@@ -209,10 +209,9 @@ dl.portlet li:last-child
 {
     font-size: 170%;
     line-height: 120%;
-    font-weight: normal;
-    letter-spacing: 0;
-    font-family: "Archivo Black", Arial,Helvetica,sans-serif;
-    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
     color: #D40E16;
 }
 
@@ -220,10 +219,10 @@ dl.portlet li:last-child
 {
     font-size: 124%;
     line-height: 110%;
-    font-weight: normal;
-    letter-spacing: 0;
-    font-family: "Archivo Black", Arial,Helvetica,sans-serif;
-    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    line-height: 170%;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
     color: #D40E16;
 }
 
@@ -231,19 +230,17 @@ dl.portlet li:last-child
 {
     font-size: 108%;
     line-height: 110%;
-    font-weight: normal;
-    letter-spacing: 0;
-    font-family: "Archivo Black", Arial,Helvetica,sans-serif;
-    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
     color: #D40E16;
 }
 
 #content h1 a:link, #content h1 a:visited
 {
-	font-weight: normal;
-	letter-spacing: 0;
-	font-family: "Archivo Black", Arial,Helvetica,sans-serif;
-	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
 	color: #D40E16;
 	border-bottom: none;
 }
@@ -270,10 +267,10 @@ dl.portlet li:last-child
     display: none;
 }
 #content h2 > a:link , #content h2 > a:visited{
-    font-weight:normal;
+    font-weight:900;
     color: #D40E16;
 }
-#content h3 > a:link {font-weight:normal;}
+
 #content a:link, dl.portlet a:link {
 	border-bottom: 0.1em solid #D40E16;
 	font-weight: bold;
@@ -372,7 +369,12 @@ dl.portlet li:last-child
     float: left;
     min-width: 200px;
 }
-
+#doormat #c-doormat-sitemap dt
+{
+    color: #FFFFFF;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
+    font-weight: 900;
+}
 p {
     line-height: 1.6em;
     margin: 0 0 1em;
