@@ -393,8 +393,13 @@ p {
   padding: 19px;
   margin-bottom: 20px;
 }
-
+.galleria-info-text {
+    background-color: rgba(215, 215, 215, 0.85);
+}
 .galleria-info-description {
     font: italic 12px/1.4 arial,sans-serif;
     margin: 0;
+}
+.galleria-thumbnails-container {
+    display:none;
 }
