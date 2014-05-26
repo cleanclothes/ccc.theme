@@ -230,9 +230,8 @@ dl.portlet li:last-child
 {
     font-size: 108%;
     line-height: 110%;
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
     color: #D40E16;
 }
 
@@ -302,7 +301,8 @@ dl.portlet li:last-child
 }
 
 #content div.row {
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #DDD;
+    margin-bottom: 10px;
 }
 #content .tile
 {
