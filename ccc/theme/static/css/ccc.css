@@ -103,8 +103,8 @@ div#portal-searchbox
 
 #portal-searchbox #searchGadget
 {
-    padding: 4px;
-    margin: 7px;
+    margin: 14px;
+    padding: 0;
 }
 
 .LSBox {
@@ -282,6 +282,7 @@ dl.portlet li:last-child
 }
 #content a:hover, dl.portlet a:hover {
     color: #666 !important;
+    text-decoration: none;
 }
 
 #content div.newsImageContainer p.discreet {
@@ -303,6 +304,7 @@ dl.portlet li:last-child
 #content div.row {
     border-bottom: 5px solid #DDD;
     margin-bottom: 10px;
+    margin-left: 15px;
 }
 #content .tile
 {
