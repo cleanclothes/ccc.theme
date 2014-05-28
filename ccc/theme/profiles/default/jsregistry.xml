@@ -2,6 +2,6 @@
 <object name="portal_javascripts">
 
  <javascript
-    id="++theme++ccc.theme/js/function"/>
+    id="++theme++ccc.theme/js/function.js"/>
 
 </object>

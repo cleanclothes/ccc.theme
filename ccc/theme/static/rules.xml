@@ -56,4 +56,99 @@
     <!-- Control Panel -->
     <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
 
+<!-- XSLT FIXES-->
+    <!-- fix cover -->
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-1')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-1</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-2') or contains(@class, 'width-3')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-2</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-4') or contains(@class, 'width-5')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-3</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-6')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-4</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-7')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-5</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-8') or contains(@class, 'width-9')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-6</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-10')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-7</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-11')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-8</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-12') or contains(@class, 'width-13')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-9</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-14')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-10</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-15')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-11</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-16')]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-12</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+ 
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[@id='editable-blocks']/div[1]/div[1]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-7 type-choice</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[@id='editable-blocks']/div[1]/div[2]">
+            <xsl:copy>
+                <xsl:attribute name="class">col-sm-5 creator-highlighted</xsl:attribute>
+                <xsl:apply-templates select="node()" />
+            </xsl:copy>
+    </xsl:template>
+    
+    <!--Identity template copies content forward -->
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+
 </rules>
