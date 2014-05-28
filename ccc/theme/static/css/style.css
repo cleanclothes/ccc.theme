@@ -87,6 +87,11 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 
 @media screen and (max-width: 768px) {
 
+	#payoff {
+		bottom: 0!important;
+		font-size: 125%!important;
+	}
+
 	.wrapper {max-width: 100%;}
 	#logo {min-width:174px;}
 	
@@ -109,14 +114,14 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 		text-indent: -900000px;
 		padding: 1em;
 		margin-top: 4%;
-		background:transparent url(../images/search-ico.png) no-repeat center center;
+		background:transparent url(search-ico.png) no-repeat center center;
 	}
 	
 	#nav #seletor {
 		display:block;
 		padding:1em;
 		width:80%;
-		background:url("../images/sections-ico.png") no-repeat 97% 60%;
+		background:url("sections-ico.png") no-repeat 97% 60%;
 	 }
 	
 	#nav li {display: none;}

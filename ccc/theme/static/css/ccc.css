@@ -13,9 +13,7 @@ body
     position: absolute; right: 1em; bottom: 25px;
 }
 
-@media all and (max-width: 940px) {
-    #payoff {position: relative;}
-}
+
 
 .state-published {
     color: black !important;
