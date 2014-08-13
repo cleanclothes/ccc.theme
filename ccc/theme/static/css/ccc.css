@@ -11,6 +11,7 @@ body
     letter-spacing: 0.05em;
     font-family: "Lato", Arial,Helvetica,sans-serif;
     position: absolute; right: 1em; bottom: 25px;
+    color: black;
 }
 
 
