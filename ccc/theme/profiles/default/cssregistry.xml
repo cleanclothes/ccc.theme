@@ -16,6 +16,11 @@
     expression="request/HTTP_X_THEME_ENABLED | nothing"
     media=""
     />
+  <stylesheet
+    id="++theme++ccc.theme/css/cccprint.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    media=""
+    />  
 
     <stylesheet title="fontawesome" applyPrefix="False" authenticated="False"
     bundle="" cacheable="False" compression="none" conditionalcomment=""
